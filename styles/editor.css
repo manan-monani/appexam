@@ -1,0 +1,10 @@
+/* Custom styles for CodeMirror editor */
+/* Reference: HackerRank Clone document, Section 5.2 (Styling with CSS) */
+
+.codemirror-editor {
+  @apply border border-gray-300 dark:border-gray-600 rounded-md;
+}
+
+.cm-editor {
+  @apply min-h-[400px];
+}
